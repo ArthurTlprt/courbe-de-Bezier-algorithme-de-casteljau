@@ -1,10 +1,9 @@
-% Px = [1 2 5 8 9];
-% Py = [2 6 7 6 2];
 
-Pts = [1, 2; 2, 6; 5, 7; 8, 6; 9, 2]
+Pts = [1, 2; 2, 6; 5, 7; 8, 6; 9, 2];
 
-% length(Px);
-% pts = zeros(2, length(Px));
+ptsToKeep = zeros(size(Pts));
+ptsToKeep(1, 1:2) = Pts(1, 1:2)
+
 % pts(1, end+1) = (Px(1)+Px(2))/2;
 % pts(2, end+1) = (Py(1)+Py(2))/2;
 
