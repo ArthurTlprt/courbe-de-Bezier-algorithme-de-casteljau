@@ -1,3 +1,5 @@
+% points d'echantillons
+
 Px = [1 2 5 8 9];
 Py = [2 6 7 6 2];
 
